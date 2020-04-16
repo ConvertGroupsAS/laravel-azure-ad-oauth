@@ -41,5 +41,9 @@ return [
         'email' => 'email',
         'name' => 'name',
         'name' => 'name',
-    ]
+    ],
+
+    // Authentication guard that used for user login.
+    // Null => default authentication driver (auth.defaults.guard)
+    'guard' => null
 ];
