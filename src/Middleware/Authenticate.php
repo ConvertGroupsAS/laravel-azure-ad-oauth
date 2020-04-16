@@ -13,7 +13,7 @@ class Authenticate implements Guard
     //         $azure_user = app('azure-user');
     //         $expires_in = $azure_user->get()->expiresIn;
     //     }catch(\Exception $e){
-    //         auth()->logout();
+    //         auth(config('azure-oath.guard'))->logout();
 
     //         throw new AuthenticationException('Unauthenticated.', $guards);
     //     }
